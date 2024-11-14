@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.left-container {
+    position: fixed;
+    width: 400px;
+    height: 100vh;
+    background-color: rgba(88, 75, 56, 0.866);
+}
+
+.photo-contact {
+    position: absolute;
+    top: 100px;
+    text-align: center;
+}
+
+.photo {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.contact-btn {
+    width: 50%;
+    background-color: rgb(202, 205, 182);
+    border-radius: 14px;
+    margin-bottom: 14px;
+    font-size: 1,1rem;
+    font-weight: bold;
+    padding: 10px;
+}
+.contact-btn:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+.right-container {
+    position: absolute;
+    left: 400px;
+    background-color: rgb(142, 185, 186);
+}
+.top-bar {
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.title {
+    font-style: italic;
+    font-size: 1,3rem;
+}
+.list-menu {
+    float: right;
+    padding-right: 50px;
+}
+.menu {
+    font-size: 1,1rem;
+    padding:15px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#profile {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+#about {
+    padding-top: 100px;
+    padding-left: 100px;
+
+}
+
+#experience {
+    padding-top: 100px;
+    padding: 100px;
+}
+
+#skill {
+    padding-top: 100px;
+    padding: 100px 100px;
+    padding-right: 2rem;
+}
+
+#achievement {
+    border-radius: 50px;
+    padding-top: 100px;
+    padding: 100px;
+}
+#contact {
+    padding-top: 100px;
+    padding: 100px;
+}
+#footer {
+    padding-top: 100px;
+    padding: 100px;
+
+}
+
+.isian {
+    border: 5px solid ;
+    border-bottom-left-radius: 50px;
+    padding-left: 0.5rem;
+    margin-right: 1rem;
+    background-color: rgb(48, 129, 127);
+}
+
+.text2 {
+    padding: 1rem;
+}
+
+.margin {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+    
